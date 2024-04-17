@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CellPhoneApplication {
     public static void main(String[] args) {
         //Creating a new instance of CellPhone
-        CellPhone cellphone = new CellPhone();
+        CellPhone cellPhone = new CellPhone();
 
         //Prompting the default information
         Scanner scanner = new Scanner(System.in);
@@ -32,11 +32,11 @@ public class CellPhoneApplication {
 
         //Displaying the entered Information
         System.out.println("\nEntered Cell Phone Information.");
-        System.out.println("Serial Number: " + cellphone.getSerialNumber());
-        System.out.println("Model: " + cellphone.getModel());
-        System.out.println("Carrier: " + cellphone.getCarrier());
-        System.out.println("Phone Number: " + cellphone.getPhoneNumber());
-        System.out.println("Owner: " + cellphone.getOwner());
+        System.out.println("Serial Number: " + cellPhone.getSerialNumber());
+        System.out.println("Model: " + cellPhone.getModel());
+        System.out.println("Carrier: " + cellPhone.getCarrier());
+        System.out.println("Phone Number: " + cellPhone.getphoneNumber());
+        System.out.println("Owner: " + cellPhone.getOwner());
 
         System.out.println("Thank you for your time.");
 
