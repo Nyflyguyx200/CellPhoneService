@@ -9,7 +9,9 @@ public class CellPhoneApplication {
 
         //Prompting the default information
         Scanner scanner = new Scanner(System.in);
-
+        
+        System.out.println("Welcome to your Cell Phone Service!")
+        
         System.out.println("Enter Cell Phone Information.");
 
         System.out.print("What is the serial number?: ");
